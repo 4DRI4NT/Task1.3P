@@ -1,0 +1,146 @@
+body {
+  background-color: lightslategray;
+}
+header{
+  background-color: black;
+  width: 99.5vw;
+  height: 5.5vw;
+}
+nav a{
+  float: left;
+  width: 15%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  background-color: lightsteelblue;
+  padding: 0.08vw;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2vw;
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.2vw;
+}
+nav a:hover {
+  background-color: steelblue;
+}
+h1 {
+  margin-left: 1vw;
+  color: whitesmoke;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 3vw;
+  height: 2vw;
+  font-weight:bold;
+  letter-spacing: 1vw;
+}
+h2{
+  background-color: black;
+  width: 47.9vw;
+  color: whitesmoke;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 2vw;
+  padding-left: 1vw;
+}
+p, form{
+  margin-left: 1vw;
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+}
+label {
+  display: inline-block;
+  clear: left;
+  width: 4.5vw;
+  text-align: right;
+}
+input, textarea {
+  display: inline-block;
+  width: 12vw;
+  margin-left: 1vw;
+}
+input.button {
+  margin-left: 9vw;
+  width: 4vw;
+  min-width: 4vw;
+  font-size: 1vw;
+}
+table, th, tr, td{
+  background-color: whitesmoke;
+  border: 0.2vw solid black;
+  border-collapse: collapse;
+  height: 1.5vw;
+  width: 50vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+}
+th {
+  background-color: lightsteelblue;
+}
+tr, td {
+  padding-left: 0.5vw;
+}
+img {
+  width: 6vw;
+}
+
+.cross {
+  display: inline-block;
+  background-color: grey;
+  height: 1.6vw;
+  width: 1.6vw;
+  font-weight: bold;
+  font-size: 1.2vw;
+  text-align: center;
+  margin-left: -1.8vw;
+  transform: translateY(0.1vw);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+}
+
+@media screen and (max-width: 650px) {
+  header {
+      width: 98vw;
+      height: 9.2vw;
+  }
+  h1 {
+    width: 97.3vw;
+    height: 2vw;
+    font-size: 5.1vw;
+  }
+  h2 {
+    width: 97.3vw;
+    height: 4vw;
+    font-size: 3.2vw;
+  }
+  nav a{
+    width: 15%;
+    margin-top: 1vw;
+    font-size: 2.2vw;
+  }
+  p, form{
+    font-size: 3vw;
+  }
+  input, textarea {
+    margin-left: 11vw;
+    width: 60vw;
+  }
+  input.button {
+    margin-left: 38vw;
+    width: 13vw;
+    font-size: 3vw;
+  }
+  table, th, tr, td{
+    border: 0.2vw;
+    height: 4vw;
+    width: 97vw;
+    font-size: 3vw;
+  }
+  
+    .flex-container {
+      flex-direction: column;
+    }
+}
